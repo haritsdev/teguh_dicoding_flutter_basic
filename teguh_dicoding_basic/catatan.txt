@@ -1,0 +1,39 @@
+==================
+WIDGET adalah blockcode yang digunakan untukmembuat tampilan UI
+======================================
+
+==============
+STATE adalah data yang ada di dalam widget yang kita buat
+=============================
+
+=========================
+STATELESS WIDGET adalah widget yang nilai state-nya tidak dapat
+berubah (immutable) maka widget tersebut bersifat statis dan memiliki 
+interaksi yang terbatas
+=================================
+
+===================================
+STATE FULL WIDGET adalah widget yang nilai statenya bersifat dinamis
+dan memiliki interaksi yang terbatas
+======================================
+
+
+===================
+SCAFFOLD WIDGET merupakan sebuah widget yang digunakan untuk membuat tampilan
+
+dasar material design pada aplikasi flutter
+terdiri dari:
+
+1. App bar
+    Appbar merupakaj bagian header (bagian paling atas) aplikasi
+    atau biasa dikenal dengan toolbar
+    app bar terdiri dari 
+    1. actions
+    2. title
+    3. leading
+
+2. Body Merupakan bagian utama dari sebuah scaffold
+
+3.FloatingActionButton ini merupakan bagian dari Scaffold yang digunakan untuk 
+menampilkan sebuah tombol aksi yang posisinya floating (melayang dan posisinya tetap)
+==============================
