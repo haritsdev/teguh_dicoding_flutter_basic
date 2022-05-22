@@ -81,3 +81,14 @@ Widget Center merupakan sebuah widget yang digunakan untuk membuat suatu widget 
  5. Dropdown button merupakan tombol yang pada saat di klik
     akan muncul pop-up daftar beberapa item yang kita pilih salah satu
  ============================
+
+
+ =======================================
+ INPUT WIDGET
+ 1. Text Field merupakan sebuah widget yang digunakan untuk merima INPUT
+    berupa text yang berasal dari keyboard.
+ 2. Switch merupakan sebuah widget yang mengembalikan nilai true atau false
+ 3. Radio merupakan widget yang digunakan untuk memilih salah satu dari beberapa pilihan
+ kelompok
+ 4. Checkbox merupakan inputan benar atau salah,check box akan
+   berisi centang jika nilai nya benar dan kosong bila nilainya salah
