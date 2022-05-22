@@ -68,3 +68,16 @@ Widget Center merupakan sebuah widget yang digunakan untuk membuat suatu widget 
  ====================================
  Column merupakan suatu widget yang digunakan untuk membuat widget-widget tersusun berjajar secara vertikal.
  ==================================
+
+ ===========================
+ BUTTON widget widget button ini adalah widgetyang dapat menerima trigger sentuhan atau dapat melakukan suatu fungsi 
+ ketika disentuh
+
+ 1. ELEVATED BUTTON meupakan widget button pada umumnya
+ 2. TextButton merupakan widget button yang memiliki tampilan polos
+ 3. Outlined Button merupakan bagian yang menyediakan TextButton
+    dengan tambahan garis luar (border)
+ 4. IconButton widget button dengan icon
+ 5. Dropdown button merupakan tombol yang pada saat di klik
+    akan muncul pop-up daftar beberapa item yang kita pilih salah satu
+ ============================
