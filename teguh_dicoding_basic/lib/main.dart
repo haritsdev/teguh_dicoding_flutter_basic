@@ -27,17 +27,13 @@ class FirstScreen extends StatelessWidget {
                 icon: const Icon(Icons.search, color: Colors.white),
                 onPressed: () {})
           ]),
-      body: Container(
-        child: const Text('Hi',
-            style: TextStyle(
-              fontSize: 40,
-            )),
-        decoration: BoxDecoration(
-            color: Colors.red,
-            border: Border.all(color: Colors.green, width: 3),
-            borderRadius: BorderRadius.circular(10)),
-        padding: const EdgeInsets.all(10),
-        margin: const EdgeInsets.all(10),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Icon(Icons.share),
+          Icon(Icons.thumb_up),
+          Icon(Icons.thumb_down)
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},

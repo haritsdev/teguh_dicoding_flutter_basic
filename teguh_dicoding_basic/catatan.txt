@@ -50,3 +50,21 @@ Decoration merupakan bagian dari Container untuk styling.
  Pada decoration kita dapat menentukan warna background (solid/gradient color), shadow, border, 
 border radius (membulatkan sudut), mengatur shape (bentuk), dan lain-lain.
 =============================
+
+====================
+Padding adalah sebuah widget yang khusus
+digunakan untuk memberikan padding pada suatu widget
+==================================
+
+===========================
+Widget Center merupakan sebuah widget yang digunakan untuk membuat suatu widget berada pada posisi tengah
+==============================
+
+=============================
+ Row merupakan suatu widget yang digunakan untuk membuat
+ widget-widget tersusun berjajar secara horizontal
+ =====================================
+
+ ====================================
+ Column merupakan suatu widget yang digunakan untuk membuat widget-widget tersusun berjajar secara vertikal.
+ ==================================
