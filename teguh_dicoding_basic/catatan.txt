@@ -37,3 +37,16 @@ terdiri dari:
 3.FloatingActionButton ini merupakan bagian dari Scaffold yang digunakan untuk 
 menampilkan sebuah tombol aksi yang posisinya floating (melayang dan posisinya tetap)
 ==============================
+
+=======================
+CONTAINER adalah widget yang digunakan untuk melakukan styling ,
+ membuatsebuah shape(bentuk) dan layout pada widget childnya
+
+container menyediakan padding dan margin
+1. padding merupakan jarak antara container dengan content(child-nya)
+2. margin merupakan jarak antara Container dengan luar container
+
+Decoration merupakan bagian dari Container untuk styling.
+ Pada decoration kita dapat menentukan warna background (solid/gradient color), shadow, border, 
+border radius (membulatkan sudut), mengatur shape (bentuk), dan lain-lain.
+=============================

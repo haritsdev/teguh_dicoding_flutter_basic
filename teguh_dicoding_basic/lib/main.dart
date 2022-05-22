@@ -18,16 +18,26 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
           leading: IconButton(
-            icon: Icon(Icons.menu, color: Colors.white),
+            icon: const Icon(Icons.menu, color: Colors.white),
             onPressed: () {},
           ),
           title: const Text('first screen'),
           actions: <Widget>[
             IconButton(
-                icon: Icon(Icons.search, color: Colors.white), onPressed: () {})
+                icon: const Icon(Icons.search, color: Colors.white),
+                onPressed: () {})
           ]),
-      body: Center(
-        child: Text('Hello world'),
+      body: Container(
+        child: const Text('Hi',
+            style: TextStyle(
+              fontSize: 40,
+            )),
+        decoration: BoxDecoration(
+            color: Colors.red,
+            border: Border.all(color: Colors.green, width: 3),
+            borderRadius: BorderRadius.circular(10)),
+        padding: const EdgeInsets.all(10),
+        margin: const EdgeInsets.all(10),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
